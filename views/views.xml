@@ -2,12 +2,15 @@
     <data noupdate="1">
         <record id="pos_category_facilities" model="pos.category">
             <field name="name">Facilities rent</field>
+            <field name="image_128" type="base64" file="pos_custom/static/img/area_of_lmp_plant.jpeg"/>             
         </record>
         <record id="pos_category_jetty" model="pos.category">
             <field name="name">Jetty and Mat. Handling</field>
+            <field name="image_128" type="base64" file="pos_custom/static/img/berthing_operation.jpeg"/>           
         </record>
         <record id="pos_category_other" model="pos.category">
             <field name="name">Other Support Service</field>
+            <field name="image_128" type="base64" file="pos_custom/static/img/accommodation_staff.jpeg"/>
         </record>
 
         <!--        Facilities rent-->
@@ -207,8 +210,8 @@
             <field name="pos_categ_id" ref="pos_category_other"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/office_building.jpeg"/>
-        </record>
+          <field name="image_1920" type="base64" file="pos_custom/static/img/berthing_operation.jpeg"/>
+          </record>
 
     <record id="accommodation_staff" model="product.product">
         <field name="available_in_pos">True</field>
