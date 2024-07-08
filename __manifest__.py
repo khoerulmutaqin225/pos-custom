@@ -33,5 +33,4 @@
         'demo/demo.xml',
     ],
 
-    'pre_init_hook': 'pre_init_hook',
 }
