@@ -1,4 +1,7 @@
-# Odoo 13 Module: pos_custom (Service Booking at Masbro Site)
+# Odoo 13 Module
+# pos_custom (Service Booking at Masbro Site)
+
+![Odoo Logo](./img/odoo.png)
 
 This module extends Odoo's Point of Sale (POS) system to include service booking functionalities for Masbro company. It allows customers to book three types of services: Jetty Rental, Rental Facilities, and Other Services.
 
