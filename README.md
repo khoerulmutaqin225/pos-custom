@@ -53,7 +53,7 @@ This module extends Odoo's Point of Sale (POS) system to include service booking
 
 ## Contribution
 
-If you encounter any issues or have suggestions for improving the `pos_custom` module, please feel free to open Issues or submit Pull Requests on our GitHub repository: [repository-link](https://github.com/developer-name/pos_custom).
+If you encounter any issues or have suggestions for improving the `pos_custom` module, please feel free to open Issues or submit Pull Requests on our GitHub repository: [repository-link](https://github.com/khoerulmutaqin225/pos-custom.git).
 
 ## License
 
