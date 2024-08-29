@@ -2,15 +2,15 @@
     <data noupdate="1">
         <record id="pos_category_facilities" model="pos.category">
             <field name="name">Facilities rent</field>
-            <field name="image_128" type="base64" file="pos_custom/static/img/area_of_lmp_plant.jpeg"/>             
+            <field name="image_128" type="base64" file="pos-custom/static/img/area_of_lmp_plant.jpeg"/>
         </record>
         <record id="pos_category_jetty" model="pos.category">
             <field name="name">Jetty and Mat. Handling</field>
-            <field name="image_128" type="base64" file="pos_custom/static/img/berthing_operation.jpeg"/>           
+            <field name="image_128" type="base64" file="pos-custom/static/img/berthing_operation.jpeg"/>           
         </record>
         <record id="pos_category_other" model="pos.category">
             <field name="name">Other Support Service</field>
-            <field name="image_128" type="base64" file="pos_custom/static/img/accommodation_staff.jpeg"/>
+            <field name="image_128" type="base64" file="pos-custom/static/img/accommodation_staff.jpeg"/>
         </record>
 
         <!--        Facilities rent-->
@@ -21,11 +21,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">area_lmp_plant</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/area_of_lmp_plant.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/area_of_lmp_plant.jpeg"/>
         </record>
 
         <record id="bulk_plant_cementing_service" model="product.product">
@@ -35,11 +35,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">bulk_plant_cementing_service</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit"/>
             <field name="uom_po_id" ref="uom.product_uom_unit"/>
-            <field name="image_1920" type="base64" file="pos_custom/static/img/bulk_plant_cementing_service.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/bulk_plant_cementing_service.jpeg"/>
         </record>
 
         <record id="warehouse_hard_roof" model="product.product">
@@ -49,11 +49,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">warehouse_hard_roof</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/warehouse_hard_roof.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/warehouse_hard_roof.jpeg"/>
         </record>
 
         <record id="concrete_shelter" model="product.product">
@@ -63,11 +63,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">concrete_shelter</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/concrete_shelter.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/concrete_shelter.jpeg"/>
         </record>
 
         <record id="temporary_waste_area" model="product.product">
@@ -77,11 +77,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">temporary_waste_area</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/temporary_waste_area.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/temporary_waste_area.jpeg"/>
         </record>
 
         <record id="open_yard_area" model="product.product">
@@ -91,11 +91,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">open_yard_area</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_facilities"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/open_yard_area.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/open_yard_area.jpeg"/>
         </record>
 
 
@@ -107,11 +107,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">berthing_operation</field>
             <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/> <!-- Replace with actual category ID -->
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/> <!-- Replace with actual category ID -->
             <field name="pos_categ_id" ref="pos_category_jetty"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-            <field name="image_1920" type="base64" file="pos_custom/static/img/berthing_operation.jpeg"/>
+            <field name="image_1920" type="base64" file="pos-custom/static/img/berthing_operation.jpeg"/>
         </record>
 
     <record id="berthing_standby" model="product.product">
@@ -121,11 +121,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">berthing_standby</field>
         <field name="to_weight">False</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/berthing_standby.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/berthing_standby.jpeg"/>
     </record>
 
     <record id="stevedoring" model="product.product">
@@ -135,11 +135,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">stevedoring</field>
         <field name="to_weight">False</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/stevedoring.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/stevedoring.jpeg"/>
     </record>
 
     <record id="cargodoring_metric" model="product.product">
@@ -149,11 +149,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">cargodoring_metric</field>
         <field name="to_weight">False</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/cargodoring_metric.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/cargodoring_metric.jpeg"/>
     </record>
 
     <record id="bulk_transfer" model="product.product">
@@ -163,11 +163,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">bulk_transfer</field>
         <field name="to_weight">False</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/bulk_transfer.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/bulk_transfer.jpeg"/>
     </record>
 
     <record id="drill_water" model="product.product">
@@ -177,11 +177,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">drill_water</field>
         <field name="to_weight">False</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/drill_water.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/drill_water.jpeg"/>
     </record>
 
     <record id="single_tonnage_lifting" model="product.product">
@@ -191,11 +191,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">single_tonnage_lifting</field>
         <field name="to_weight">False</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_jetty"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/single_tonnage_lifting.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/single_tonnage_lifting.jpeg"/>
     </record>
 
 <!--Other Service        -->
@@ -206,11 +206,11 @@
             <field name="weight">0.00</field>
             <field name="default_code">office_building</field>
             <field name="to_weight">True</field>
-            <field name="categ_id" ref="product.product_category_5"/>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
             <field name="pos_categ_id" ref="pos_category_other"/>
             <field name="uom_id" ref="uom.product_uom_unit" />
             <field name="uom_po_id" ref="uom.product_uom_unit" />
-          <field name="image_1920" type="base64" file="pos_custom/static/img/berthing_operation.jpeg"/>
+          <field name="image_1920" type="base64" file="pos-custom/static/img/berthing_operation.jpeg"/>
           </record>
 
     <record id="accommodation_staff" model="product.product">
@@ -220,11 +220,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">accommodation_staff</field>
         <field name="to_weight">True</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_other"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/accommodation_staff.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/accommodation_staff.jpeg"/>
     </record>
 
     <record id="accommodation_non_staff" model="product.product">
@@ -234,11 +234,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">accommodation_non_staff</field>
         <field name="to_weight">True</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_other"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/accommodation_non_staff.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/accommodation_non_staff.jpeg"/>
     </record>
 
     <record id="meal_personnel" model="product.product">
@@ -248,11 +248,11 @@
         <field name="weight">0.00</field>
         <field name="default_code">meal_personnel</field>
         <field name="to_weight">True</field>
-        <field name="categ_id" ref="product.product_category_5"/>
+        <field name="categ_id" ref="point_of_sale.product_category_pos"/>
         <field name="pos_categ_id" ref="pos_category_other"/>
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="uom_po_id" ref="uom.product_uom_unit" />
-        <field name="image_1920" type="base64" file="pos_custom/static/img/meal_personnel.jpeg"/>
+        <field name="image_1920" type="base64" file="pos-custom/static/img/meal_personnel.jpeg"/>
     </record>
 
     </data>
